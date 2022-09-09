@@ -181,8 +181,8 @@ function download_component() {
             fi
         else   
             show_message "downloading $4 ..."
-            ariapkg=$(package_installed aria2c "summary")
-            curlpkg=$(package_installed curl "summary")
+            #ariapkg=$(package_installed aria2c "summary")
+            #curlpkg=$(package_installed curl "summary")
             
             if [ "$ariapkg" == "true" ];then
                 show_message "using aria2c to download $4"
